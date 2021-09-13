@@ -7,16 +7,18 @@ class Arithmetic {
 		System.out.println(x-y);
 	}
 }
-class Assignment{
+class Code{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		Arithmetic obj = new Arithmetic();
-		if(a>b){
+		if(a>b)
+		{
 		    obj.diff(a,b);
 		}
-		else {
+		else 
+		{
 		    obj.add(a,b);
 		}
 	}
