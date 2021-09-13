@@ -1,0 +1,23 @@
+import java.util.*;
+class Arithmetic {
+	void add(int x,int y) {
+		System.out.println(x+y);
+	}
+	void diff(int x,int y){
+		System.out.println(x-y);
+	}
+}
+class Assignment{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		Arithmetic obj = new Arithmetic();
+		if(a>b){
+		    obj.diff(a,b);
+		}
+		else {
+		    obj.add(a,b);
+		}
+	}
+}
